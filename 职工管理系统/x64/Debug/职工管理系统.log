@@ -1,0 +1,7 @@
+﻿  employee.cpp
+  workmanger.cpp
+C:\Users\w3365\source\repos\职工管理系统\职工管理系统\workmanger.cpp(135,6): warning C4101: “secret”: 未引用的局部变量
+C:\Users\w3365\source\repos\职工管理系统\职工管理系统\workmanger.cpp(131,6): warning C4101: “id”: 未引用的局部变量
+  源.cpp
+  正在生成代码...
+  职工管理系统.vcxproj -> C:\Users\w3365\source\repos\职工管理系统\x64\Debug\职工管理系统.exe
