@@ -1,0 +1,32 @@
+#include<iostream>
+using namespace std;
+int main()
+{
+
+	long m, s, t, a1=0, a2=0;
+	cin >> m >> s >> t;
+	for (int i = 0; i <t; i++)
+	{
+		if (m >= 10)
+		{
+			m = m - 10;
+			a1 += 60;
+		}
+		else
+		{
+			m += 4;
+		}
+		a2 += 17;
+	if (a1 > a2)
+		a2 = a1;
+	if (a2 >= s)
+	{
+		cout << "Yes" << endl;
+		cout << i+1 << endl;
+		return 0;
+	}
+}
+	cout << "No" << endl;
+	cout <<a2 << endl;
+	return 0;
+}`
